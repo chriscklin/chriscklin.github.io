@@ -4,7 +4,11 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+My name is Christapher Lin and I'm a seasoned software engineer with 9 years of experience. My first 6 years of experience were spent at Leidos, developing secure and robust software solutions for our terrain database production team. Leveraging a solid foundation in software engineering, I have transitioned into a back-end web developer role for the past 3 years, specializing in designing and implementing scalable server-side architectures, optimizing databases, and ensuring seamless integration with frontend systems.
+
+[Full Resume](https://drive.google.com/file/d/1CDgRy_uMaSzTI8Pe8wsrrm4EuIs9-8EH/view?usp=sharing)
+
+<!-- This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
 
 You can find the source code for Minima at GitHub:
 [jekyll][jekyll-organization] /
@@ -14,5 +18,4 @@ You can find the source code for Jekyll at GitHub:
 [jekyll][jekyll-organization] /
 [jekyll](https://github.com/jekyll/jekyll)
 
-
-[jekyll-organization]: https://github.com/jekyll
+[jekyll-organization]: https://github.com/jekyll -->
