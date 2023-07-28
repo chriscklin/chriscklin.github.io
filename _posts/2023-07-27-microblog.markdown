@@ -5,26 +5,35 @@ date: 2023-07-27 10:25:45 -0400
 categories: jekyll update
 ---
 
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+[Git Repo](https://github.com/chriscklin/microblog)<br>
+This is my first Flask project. It's a microblog site build with flask, bootstrap, jinja and javascript.
 
-Jekyll requires blog post files to be named according to the following format:
+Upon entering the site, the user will be redirected to the Login's page. If the user doesn't have an account, clicking the 'Sign Up' button in the navigation bar.
+![Login Page](/screenshots/microblog/login_page_empty.png)
 
-`YEAR-MONTH-DAY-title.MARKUP`
+This is the Sign Up page. The form checks if the email or username exists, if the password is at least 8 characters, and if the passwords match upon submission. An error message will flash if any of the criteria fail.
+![Sign Up Page](/screenshots/microblog/sign_up_page_empty.png)
+<br><br>
+![Sign Up Page Error](/screenshots/microblog/sign_up_page_error.png)
 
-Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+Once a new user has been successfully created, the user is automatically logged in and redirected to the Home page where all posts are displayed in reverse chronological order. Once logged in, the navigation bar changes to having 'Home'and 'Logout' options and user's username is displayed on the far right. From the Home page, there are several options. Users can:
 
-Jekyll also offers powerful support for code snippets:
+- Add a new post using the 'Create a Post' button
+- View all posts from a user by clicking any username
+- Like a post by clicking the thumbs up icon
+- View comments by clicking 'View <#> Comments'
+- Leave a comment
 
-{% highlight ruby %}
-def print_hi(name)
-puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+![Home Page New User](/screenshots/microblog/new_user_created_home.png)
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+This is the 'Make a Post' page. Simply enter text in the text post and click post. After the post is created, the user will be redirected back to the Home page.
 
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]: https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+![Make a Post](/screenshots/microblog/make_a_post_page.png)
+
+When a user name is clicked, all the posts for that user are displayed in reverse chronological order.
+
+![User's Post](/screenshots/microblog/user_post_view.png)
+
+User's have the option to delete their own posts, their own comments, and comments on their post.
+
+![Delete Post](/screenshots/microblog/delete_post.png)
