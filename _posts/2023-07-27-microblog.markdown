@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Microblog"
+title: "Microblog (Flask, Bootstrap, Jinja, Javascript)"
 date: 2023-07-27 10:25:45 -0400
 categories: jekyll update
 ---
