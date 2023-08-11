@@ -6,7 +6,7 @@ categories: jekyll update
 ---
 
 [Git Repo](https://github.com/chriscklin/movie_recommender)<br>
-This is my first Node project. It is a movie recommender API currently consisting of 3 endpoints.
+This is my first Node project. It is a movie recommender API currently consisting of 3 endpoints.  The recommendations are based on IMDB's top 250 ranked movies and will suggest a movie from the top 250 based on a given movie title.
 
 ### POST /api/upload
 
